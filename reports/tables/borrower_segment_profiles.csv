@@ -1,0 +1,5 @@
+kmeans_cluster,Cluster_Name,Borrower_Count,Portfolio_Share,Mean_Loan_Amount,Median_Loan_Amount,Mean_Income,Median_Income,Mean_DTI,Mean_FICO,Mean_Emp_Years,Mean_Loan_To_Income,Default_Rate_Pct
+0,Cluster 0: Moderate-Income Mortgagors (Low-Risk),14379,28.76,9280.77,9000.0,70710.88,67000.0,17.45,696.7,9.0,0.141,16.54
+1,Cluster 1: Entry/Budget Renters (Moderate-Risk),15338,30.68,9070.55,8500.0,59140.01,55000.0,16.51,693.7,2.6,0.168,18.16
+2,Cluster 2: Overleveraged High-DTI Borrowers (High-Risk),13752,27.5,20697.11,20000.0,61602.29,60000.0,22.77,697.5,6.4,0.347,27.87
+3,Cluster 3: Affluent High-Income Borrowers (Prime Low-Risk),6530,13.06,24786.96,25000.0,157801.12,142000.0,14.01,713.6,6.3,0.173,15.21

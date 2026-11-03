@@ -1,0 +1,4 @@
+Algorithm,Num_Clusters,Silhouette_Score,Calinski_Harabasz,Davies_Bouldin,Strengths
+K-Means,4,0.1462,839.2,1.83,"Fast, highly scalable, clear cluster boundaries, easily assign new loans"
+Hierarchical (Ward),4,0.1402,425.1,1.839,"Deterministic, captures nested risk hierarchies, no cluster shape assumption"
+DBSCAN,1,0.0812,124.5,1.94,"Detects arbitrary shapes, automatically isolates high-risk outliers/anomalies"
