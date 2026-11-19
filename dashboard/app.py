@@ -350,13 +350,15 @@ with tabs[5]:
 
         c_name, c_risk, c_def, c_color, c_rec = cluster_descriptions[pred_cluster]
 
-        st.markdown(f"""
-        <div style="background-color: #f8f9fa; border-left: 6px solid {c_color}; padding: 20px; border-radius: 6px; margin-top: 20px;">
+                st.markdown(f"""
+        <div style="background-color: #1e293b; border-left: 6px solid {c_color}; padding: 20px; border-radius: 6px; margin-top: 20px;">
             <h3 style="color: {c_color}; margin-top: 0;">Assigned Segment: {c_name}</h3>
-            <p><strong>Predicted Risk Tier:</strong> {c_risk} | <strong>Historical Cohort Default Rate:</strong> {c_def}</p>
-            <p><strong>Underwriting Recommendation:</strong> {c_rec}</p>
+            <p style="color: #f1f5f9; font-size: 15px; margin: 8px 0;">
+                <strong style="color: #ffffff;">Predicted Risk Tier:</strong> {c_risk} &nbsp;|&nbsp; 
+                <strong style="color: #ffffff;">Historical Cohort Default Rate:</strong> {c_def}
+            </p>
+            <p style="color: #cbd5e1; font-size: 14px; margin: 6px 0;">
+                <strong style="color: #ffffff;">Underwriting Recommendation:</strong> {c_rec}
+            </p>
         </div>
         """, unsafe_allow_html=True)
-
-st.markdown("---")
-st.markdown("<div style='text-align: center; color: #888;'>Credit Portfolio Segmentation & Risk Pattern Analysis | GUVI Capstone Project</div>", unsafe_allow_html=True)
